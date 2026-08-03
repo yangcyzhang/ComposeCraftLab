@@ -1,0 +1,39 @@
+# Gradle build files
+.gradle
+/build
+**/build/
+**/release/
+
+# Kotlin / IDE configurations
+.kotlin
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+
+# Local developer configurations (Crucial for private info)
+local.properties
+.env
+.env.*
+!.env.example
+
+# Signatures & Keys
+debug.keystore
+*.jks
+*.keystore
+
+# macOS system files
+.DS_Store
+
+# iOS/Xcode user states
+*.mode1v3
+*.mode2v3
+*.nib
+*.storyboardc
+xcuserdata/
+DerivedData/
+.swiftpm/
