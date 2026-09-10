@@ -1,19 +1,14 @@
 # Gradle build files
-.gradle
-/build
+.gradle/
 **/build/
 **/release/
 
 # Kotlin / IDE configurations
-.kotlin
+.kotlin/
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-.idea/caches
+.idea/
+*.ipr
+*.iws
 
 # Local developer configurations (Crucial for private info)
 local.properties
