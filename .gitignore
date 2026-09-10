@@ -24,6 +24,9 @@ debug.keystore
 # macOS system files
 .DS_Store
 
+# Documentation
+docs/
+
 # iOS/Xcode user states
 *.mode1v3
 *.mode2v3
